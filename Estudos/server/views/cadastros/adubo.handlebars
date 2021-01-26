@@ -1,0 +1,78 @@
+<div class="nav mb-2 mt-4 mb-4">
+
+   <div class="card-header bg-dark text-white ml-4 mt-2 mb-2 shadow  rounded ">
+        <h3 class="card-title"> Fertilizantes Atualmente Cadastrados</h3>
+    </div>
+
+
+
+    <div class="nav-item ml-auto mr-4">
+        <a href="/adubos/add"><button class="btn btn-success text-white shadow">Cadastrar novo Fertilizante</button></a>
+    </div>
+</div>
+
+
+<div class="row">
+    {{#each adubos}}
+
+    <div class="col-md-3 p-2">
+        <div class="card  shadow mb-2 rounded-top" style="margin:0 auto;border-radius: 16px">
+            <div class="card-header  bg-dark text-white text-center  p-2">
+                <h5 class="" >{{nome_adubo}}</h5>
+            </div>
+            <div class="card-body p-2">
+
+                <p class="card-text"><strong>Classificação:</strong> {{classificacao1}}</p>
+
+                <p class="card-text"><strong>Classificação:</strong> {{classificacao2}}</p>
+
+                <p class="card-text"><strong>Quantidade:</strong> {{qtd}} kg</p>
+            </div>
+            <div class="card-footer bg-dark text-center">
+                <div class="row">
+                    <div class="col-md-6 p-1">
+                <a href="/adubos/edit/{{_id}}" class="btn-sm btn btn-primary btn-block "> Editar Fertilizante</a>
+                </div>
+                <div class="col-md-6 p-1">
+                <!-- Button Modal -->
+                <button type="button" class="btn btn-sm btn-danger btn-block" data-toggle="modal"
+                    data-target="#exampleModal{{id}}">
+                    Deletar Fertilizante
+                </button>
+                </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal{{id}}" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Aviso</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Deseja mesmo excluir o {{nome_adubo}}?
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                <input type="hidden" name="id" value="{{_id}}">
+                                <a href="/adubos/delete/{{_id}}"> <button type="submit" class="btn btn-danger">Deletar
+                                        </button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    {{else}}
+
+     <div class="mt-4 ml-4">
+        <h5>Nenhum Fertilizante Atualmente Cadastrado no Sistema.</h5>
+    </div>
+
+    {{/each}}
+</div>

@@ -1,0 +1,97 @@
+{{#each erros}}
+<div class="alert alert-danger">{{texto}}</div>
+{{else}}
+
+{{/each}}
+
+<div id="msg" class="alert alert-danger"></div>
+
+
+<div class="p-4">
+    <div class="card shadow mb-2 rounded-top border border-dark"  style="border-radius: 16px">
+        <div class="card-header bg-dark text-white"><h4>Informe os Dados do Fertilizante</h4></div>
+
+        <div class="card-body">
+
+            <form class="needs-validation" action="/adubos/novo" method="POST" novalidate>
+
+                <div class="form-row">
+                    <div class="col-md mb-3">
+                        <label for="nome_adubo" class="text-form">Nome / Formulação </label>
+                        <input type="text" id="nome_adubo" name="nome_adubo" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="classificacao1" class="text-form">Classificação 1 </label>
+                        <select class="custom-select my-1 mr-sm-2" id="classificacao1" name="classificacao1" required>
+                            <option selected hidden value="" >Selecionar Classificação</option>
+                            <option value="Adubo de Plantio">Adubo de Plantio</option>
+                            <option value="Adubo de Cobertura">Adubo de Cobertura</option>
+                            <option value="Foliar">Foliar</option>
+                            <option value="Hidrossolúvel">Hidrossolúvel</option>
+
+                        </select>
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label for="classificacao2" class="text-form">Tipo </label>
+                        <select class="custom-select my-1 mr-sm-2" id="classificacao2" name="classificacao2" required>
+                            <option selected hidden value="">Selecionar Tipo</option>
+                            <option value="Orgânico">Orgânico</option>
+                            <option value="Mineral">Mineral</option>
+                        </select>
+                    </div>
+
+        
+
+                </div>
+
+        </div>
+
+        <div class="card-footer ">
+
+            <div class="row">
+                <div class="col-md-3">
+                    <button type="submit" class="btn mb-2 btn-success btn-block ">Cadastrar novo Fertilizante</button>
+                </div>
+                  <div class="col-md-2 ml-auto">
+                <a href="/adubos" class="btn btn-secondary btn-block "> < Voltar</a>
+            </div>
+            </div>
+            </form>
+        </div>
+
+</div>
+
+    </div>
+
+</div>
+    <script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+       window.msgErro = document.getElementById("msg")
+           msgErro.style.display = 'none'
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    const select = document.getElementsByClassName("custom-select")
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+               msgErro.style.display = 'block'
+                    msgErro.innerHTML = "Preencha todos os campos!"
+          event.preventDefault();
+          event.stopPropagation();
+
+
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>

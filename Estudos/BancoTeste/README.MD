@@ -1,0 +1,8 @@
+## FUNCIONALIDADEs
+
+- liSTAR
+
+* tESTE
+! AAAAA
+
+&¨6NPM
