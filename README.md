@@ -1,7 +1,5 @@
 ### Hello 👋
 
-##About me
-
 :computer: I'm Full Stack and Java Developer!
 
 :house_with_garden: I’m from Brazil.
