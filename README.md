@@ -5,6 +5,8 @@
 
 [![jordaomoraes GitHub stats](https://github-readme-stats.vercel.app/api?username=jordaomoraes)](https://github.com/jordaomoraes/github-readme-stats)
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jordaomoraes)](https://github.com/jordaomoraes/github-readme-stats)
+
 
 :computer: I'm Front-End Developer!
 
