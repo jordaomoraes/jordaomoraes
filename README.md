@@ -2,13 +2,6 @@
 
 ##About me
 
-<a href="https://github.com/jordaomoraes/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=jordaomoraes&repo=github-readme-stats" />
-</a>
-<a href="https://github.com/jordaomoraes/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=jordaomoraes&repo=convoychat" />
-</a>
-
 :computer: I'm Full Stack and Java Developer!
 
 :house_with_garden: I’m from Brazil.
