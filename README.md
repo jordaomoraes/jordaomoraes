@@ -3,7 +3,7 @@
 
 # Welcome!
 
-<img height= "20"src= "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
+[![jordaomoraes GitHub stats](https://github-readme-stats.vercel.app/api?username=jordaomoraes)](https://github.com/jordaomoraes/github-readme-stats)
 
 
 :computer: I'm Front-End Developer!
