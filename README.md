@@ -2,11 +2,9 @@
 
 ##About me
 
-:computer: I'm Front-End Developer!
+:computer: I'm Full Stack and Java Developer!
 
 :house_with_garden: I’m from Brazil.
-
-:books: I’m currently learning everything.
 
 [![jordaomoraes GitHub stats](https://github-readme-stats.vercel.app/api?username=jordaomoraes&theme=radical)](https://github.com/jordaomoraes/github-readme-stats)
 
