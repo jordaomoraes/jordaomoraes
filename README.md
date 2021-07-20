@@ -9,9 +9,9 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jordaomoraes&theme=radical)](https://github.com/jordaomoraes/github-readme-stats)
 
 
-[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=LINK_GIT)](LINK_GIT)
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jordaomoraes)]
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link= LINK_LINKEDIN)]( LINK_LINKEDIN)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/guilherme-jord%C3%A3o-moraes-3a8423124/)]
 
 
 ## Tecnologies
