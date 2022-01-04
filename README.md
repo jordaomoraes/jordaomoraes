@@ -19,6 +19,9 @@
 <code><img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" /></code>
 
 
+ ![Snake animation](https://github.com/jordaomoraes/jordaomoraes/blob/output/github-contribution-grid-snake.svg)
+
+
 - Thanks for visiting.
 
 - Enjoy it!! o/
