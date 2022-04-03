@@ -4,7 +4,6 @@
 
 :house_with_garden: I’m from Brazil.
 
-git antigo -- > https://github.com/JordaoActual
 
 ## Tecnologies
 <code><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" /></code>
